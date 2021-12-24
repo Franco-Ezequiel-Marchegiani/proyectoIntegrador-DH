@@ -1,0 +1,55 @@
+.titleItem {
+    text-align: center;
+    vertical-align: 15vw;
+}
+
+/* main {
+     display: flex;
+    justify-content: flex-start; 
+} */
+
+.titleItem {
+    margin-top: 0px;
+    text-align: center;
+    animation: hideText 0s ease-in 3s;
+    animation-fill-mode: forwards;
+}
+
+.container {
+    margin: 0 !important;
+    padding-left: 0 !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containerProfile {
+    display: flex;
+    justify-content: flex-start;
+    display: inline-block;
+    border: grey 1px solid;
+}
+
+.containerEnalce {
+    display: flex;
+}
+
+.enlace {
+    display: inline-block;
+}
+
+.userDetials {
+    text-align: start;
+}
+
+#detail {
+    padding: 5px;
+}
+
+@keyframes hideText {
+    to {
+        visibility: hidden;
+        max-height: 0px;
+        width: 0%;
+        height: 0%;
+    }
+}
